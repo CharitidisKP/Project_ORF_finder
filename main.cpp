@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char seq[100000];                                                              // Don't know how to make it work without giving it a value
+    char seq[100000];                                                              
     printf("Welcome to the most basic ORF finder!\nFeed me sequences: ");
 
     while (scanf("%s", seq) == 1) {
